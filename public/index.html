@@ -27,8 +27,9 @@
                     <select data-i18n-switcher>
                         <option value="de">Deutsch</option>
                         <option value="en">English</option>
+                        <option value="cn">简体中文</option>
                     </select>
-                    <a class="github-button" href="https://github.com/rwarasaurus/debgen/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/rwarasaurus/debgen/network" data-count-api="/repos/rwarasaurus/debgen#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork rwarasaurus/debgen on GitHub">Fork
+                    <a class="github-button" href="https://github.com/Lknife666/debgen/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/Lknife666/debgen/network" data-count-api="/repos/Lknife666/debgen#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork Lknife666/debgen on GitHub">Fork
                     </a>
                 </div>
             </div>
@@ -98,8 +99,11 @@
                         <select name="releases">
                             <option value="none" selected></option>
                             <option value="stable" data-updates>Stable</option>
-                            <option value="testing" data-updates>Testing</option>
-                            <option value="bullseye" data-updates>Debian 11 (Bullseye)</option>
+							<option value="unstable" data-updates>Unstable </option>
+							<option value="testing" data-updates>Testing</option>
+							<option value="trixie" data-updates>Debian 13 (trixie)</option>
+							<option value="bookworm" data-updates>Debian 12 (bookworm)</option>
+							<option value="bullseye" data-updates>Debian 11 (bullseye)</option>
                             <option value="buster" data-updates>Debian 10 (Buster)</option>
                             <option value="stretch" data-updates>Debian 9 (Stretch)</option>
                             <option value="jessie" data-updates>Debian 8 (Jessie)</option>
@@ -152,6 +156,10 @@
                 <label>
                     <input name="security" type="checkbox" checked> Security
                 </label>
+				<br>
+				<label>
+				<input name="backports" type="checkbox"> Backports
+				</label>
             </p>
 
             <p>

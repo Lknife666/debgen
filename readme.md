@@ -1,35 +1,16 @@
-The source code for [debgen.xyz](https://debgen.xyz)
+# Setup | 安装
 
-# Setup
-
-## Install source code
+## Install source code | 克隆源码
 
 ```
-git clone https://github.com/rwarasaurus/debgen.git .
+git clone https://github.com/Lknife666/debgen.git .
 ```
 
-## Install packages
+## Install packages | 在终端里输入
 
 ```
-yarn
-```
-
-or
-
-```
-npm install
-```
-
-## Starting dev server
-
-### Dev mode
-
-```
-yarn dev
-```
-
-## Building code
-
-```
+npm install yarn
+yarn install
 yarn build
+
 ```
